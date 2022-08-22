@@ -35,7 +35,7 @@
                     <h2 class="mb-3 text-center" id="messi">Lionel Messi</h2>
                     <h5 class="mb-4 text-center">36 Goals - 120 Assist</h5>
                 <div class="text-center ">
-                   <button id="selected1" class="select fs-4 fw-bold text-white mb-2 mt-4 selected">select</button>
+                   <button id="selected1" class="select fs-4 fw-bold text-white mb-2 mt-4 selected" >select</button>
                 </div>
                </div>
           </div>
@@ -85,7 +85,7 @@
                     <h2 class="mb-3 text-center" id="renato">Renato Sanches</h2>
                     <h5 class="mb-4 text-center">36 Goals - 120 Assist</h5>
                 <div class="text-center ">
-                   <button id="selected5" class="select fs-4 fw-bold text-white mt-4 mb-2 selected" >select</button>
+                   <button id="selected6" class="select fs-4 fw-bold text-white mt-4 mb-2 selected" >select</button>
                 </div>
                </div>
           </div>
@@ -99,7 +99,7 @@
                   <img src="/images/Ureg-Ureg Marker.png" alt="">
               </div>
                 <div class="text-white text-center " >
-                    <ol id="player-Container">
+                    <ol id="player-Container" class="order-list">
 
                     </ol>
                 </div>
@@ -111,13 +111,13 @@
                   </div>
                   <div class="text-white d-flex justify-content-evenly mb-4">
                      <p class="per-play">Per player: </p>
-                     <input class="input" type="text">
+                     <input id="cal-input" class="input" type="text">
                   </div>
                     <div class="text-center mb-4">
-                      <button class="select fs-4 text-white fw-bold">calculate</button>
+                      <button class="select fs-4 text-white fw-bold" id="calculate-btn">calculate</button>
                     </div>
                     <div class="text-white p-2 text-center mb-4">
-                       <h4>Player Expenses: <span class="ps-5">$<span>5000</span></span></h4>
+                       <h4>Player Expenses: <span class="ps-5">$<span id="expenses">00</span></span></h4>
                     </div>
                     <div class="text-white d-flex justify-content-evenly mb-4">
                       <p class="per-play">Manager: </p>
@@ -128,7 +128,7 @@
                     <input class="input ms-3" type="text">
                  </div>
                  <div class="text-center mb-4">
-                  <button class="select fs-4 text-white fw-bold">calculate Total</button>
+                  <button class="select fs-4 text-white fw-bold" id="">calculate Total</button>
                 </div>
                  <div class="text-white d-flex justify-content-between p-4">
                   <h4 class="fw-bold">Total:</h4>
