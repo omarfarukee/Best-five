@@ -90,9 +90,6 @@ document.getElementById('selected5').addEventListener('click', function(){
         const container=  document.getElementById("player-Container");
                  newElements = document.createElement('li')
                  newElements.innerText = selectedRamosInnerText
-        
-                 
-                //  arrayList.push(container)
                  if (arrayList.length < 5) {
                     arrayList.push(container)
                     disableBtn.disabled = true;
@@ -102,34 +99,25 @@ document.getElementById('selected5').addEventListener('click', function(){
                 else{
                     alert ('You can chose only five')
                 }
-                 
-                
 })
 document.getElementById('selected6').addEventListener('click', function(){
 
     const selectRenaBtn = document.getElementById('renato');
     const selectedRenaInnerText = selectRenaBtn.innerText
+
     const disableBtn = document.getElementById('selected6')
-    
-            
-                const container=  document.getElementById("player-Container");
+    const container=  document.getElementById("player-Container");
                  newElements = document.createElement('li')
                  newElements.innerText = selectedRenaInnerText
-        
-                
-                 
-                 if (arrayList.length < 5) {
+                if (arrayList.length < 5) {
                     container.appendChild(newElements)
                     arrayList.push(container)
                     disableBtn.disabled = true;
                     disableBtn.style.backgroundColor = "gray"
-                  
-                }
+                  }
                 else{
                     alert ('You can chose only five')
                 }
-                 
-                
 })
 
 function getYourCalculation() {
@@ -139,8 +127,6 @@ function getYourCalculation() {
 
     const calculateInto = arrayList.length * calculateInputValueString
     const calculateIntoString = parseFloat(calculateInto)
-
-   
 
    const expenses = document.getElementById('expenses')
    const expensesText = expenses.innerText
@@ -188,10 +174,9 @@ document .getElementById('calculate-btn').addEventListener('click',function(){
 
 })
 document.getElementById('total').addEventListener('click', function(){
-
     
-   getYourGrandTotal()
-   getYourGrandCalculationTotal()
+    getYourGrandTotal()
+    getYourGrandCalculationTotal()
 
 })
 
