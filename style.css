@@ -16,5 +16,29 @@ header h1{
     top: 95px;
 }
 .players{
-    padding:70px;
+    width: 400px;
+    height: 415px;
+    margin-bottom: 20px;
+}
+.select{
+    height: 50px;
+    width: 250px;
+    
+    background-color: blue;
+    
+}
+.calculate{
+    width: 400px;
+    height: 600px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.input{
+    height: 60px;
+    width: 150px;
+}
+.per-play{
+    padding-top: 18px;
 }
