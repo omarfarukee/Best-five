@@ -7,3 +7,14 @@ header h1{
     font-size:80px;
     padding-top: 80px;
 }
+.logo{
+    padding-right:100px;
+}
+.football{
+    position: relative;
+    left:98px;
+    top: 95px;
+}
+.players{
+    padding:70px;
+}
