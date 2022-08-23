@@ -1,10 +1,10 @@
 header{
    background-color: black;
-   height: 500px;
+   height: 400px;
    width: 100%;
 }
 header h1{
-    font-size:80px;
+    font-size:60px;
     padding-top: 80px;
     color:rgb(255, 68, 0);
     margin-top:50px;
@@ -16,11 +16,11 @@ header h1{
 .football{
     position: relative;
     left:98px;
-    top: 95px;
+    top: 20px;
 }
 .players{
-    width: 400px;
-    height: 415px;
+    width: 300px;
+    height: 395px;
     margin-bottom: 20px;
 }
 .select{
@@ -32,7 +32,7 @@ header h1{
     
 }
 .calculate{
-    width: 400px;
+    width: 300px;
     height: 700px;
 }
 .cards{

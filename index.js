@@ -39,6 +39,9 @@ document.getElementById('selected5').addEventListener('click',function(){
 document.getElementById('selected6').addEventListener('click',function(){
     getYourBest('renato', 'selected6')
 })
+// ------------------<<<<<<<Common function For Selection button end>>>>>>>>>>>----------------------------------
+
+// ----------------<<<<<<<<<calculation start >>>>>>>>>------------------------------------------------------
 
 function getYourCalculation() {
     const calculateInput = document.getElementById('cal-input')
@@ -83,7 +86,7 @@ function getYourGrandTotal(){
 function getYourGrandCalculationTotal(){
 
     const expensesPlus = document.getElementById('expenses')
-   const expensesPlusValue = expensesPlus.innerText
+    const expensesPlusValue = expensesPlus.innerText
     const expensesPlusValueString = parseFloat(expensesPlusValue)
 
    const manager = document.getElementById('manager-input')
@@ -109,4 +112,6 @@ document.getElementById('total').addEventListener('click', function(){
      getYourGrandTotal()
      getYourGrandCalculationTotal()
 })
+// ----------------<<<<<<<<<calculation start >>>>>>>>>------------------------------------------------------
+
 
