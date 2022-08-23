@@ -6,8 +6,9 @@ header{
 header h1{
     font-size:80px;
     padding-top: 80px;
-    color:coral;
+    color:rgb(255, 68, 0);
     margin-top:50px;
+    
 }
 .logo{
     padding-right:100px;
@@ -25,8 +26,9 @@ header h1{
 .select{
     height: 50px;
     width: 250px;
-    
-    background-color: blue;
+    border:1px solid white;
+    background-color:rgb(255, 106, 0);
+    border-radius: 5px;
     
 }
 .calculate{
@@ -40,9 +42,14 @@ header h1{
 .input{
     height: 60px;
     width: 150px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
 }
 .per-play{
     padding-top: 18px;
+    
 }
 .footer{
     margin-top: 100px;
@@ -51,4 +58,11 @@ header h1{
     height: 150px;
     text-align: center;
     padding-top: 50px;
+}
+.border h5{
+    color: rgb(156, 149, 149);
+}
+.border{
+    border-radius: 5px;
+    box-shadow: 20px 20px 20px black;
 }
