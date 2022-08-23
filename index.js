@@ -124,14 +124,23 @@ function getYourCalculation() {
     const calculateInput = document.getElementById('cal-input')
     const calculateInputValue = calculateInput.value
     const calculateInputValueString = parseFloat(calculateInputValue)
-
+    console.log(calculateInputValueString)
+    console.log(typeof(calculateInputValueString))
     const calculateInto = arrayList.length * calculateInputValueString
     const calculateIntoString = parseFloat(calculateInto)
 
    const expenses = document.getElementById('expenses')
    const expensesText = expenses.innerText
    expenses.innerText = calculateIntoString
-   
+   if (isNaN(calculateInputValueString)) {
+
+    alert ('please enter a valid input')
+    calculateInput.value = '';
+    // expenses.innerText = 000;
+}
+if(isNaN(expenses.innerText)){
+    return expenses.innerText = 000;
+}
 }
 
 function getYourGrandTotal(){
@@ -145,7 +154,16 @@ function getYourGrandTotal(){
     const coachValueString = parseFloat(coachValue)
     const totalCalculation = managerValueString + coachValueString 
     console.log(totalCalculation)
-   
+    if (isNaN(managerValueString) || isNaN(coachValueString)) {
+        alert ('please enter a valid input and Full-fill the input')
+        manager.value = ''
+        coach.value = ''
+    }
+    // if (isNaN(coachValueString)) {
+    //     alert ('please enter a valid input and Full-fill the input')
+    //     coach.value = ''
+    // }
+  
 }
 function getYourGrandCalculationTotal(){
 
@@ -164,6 +182,10 @@ function getYourGrandCalculationTotal(){
    const finalTotal = document.getElementById('grand-total')
    const finalTotalCalculate = expensesPlusValueString + managerValueString + coachValueString
    finalTotal.innerText = finalTotalCalculate
+  
+if (isNaN(finalTotal.innerText)) {
+    return finalTotal.innerText = 000;
+}
 }
 
 
