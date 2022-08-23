@@ -79,14 +79,6 @@ function getYourGrandTotal(){
         // manager.value = ''
         // coach.value = ''
     }
-    // if (isNaN(managerValueString) ) {
-    //     alert ('please enter a valid input and Full-fill the input')
-    //     manager.value = ''
-    //     if (isNaN(coachValueString)) {
-    //     alert ('please enter a valid input and Full-fill the input')
-    //     coach.value = ''
-    // }
-    // }
 }
 function getYourGrandCalculationTotal(){
 
